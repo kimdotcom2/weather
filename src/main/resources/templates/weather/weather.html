@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>기상청 단기예보</title>
+</head>
+<body>
+    <form class="form-horizontal" method="post" action="/weather/view">
+        인증키 : <input type="text" name="serviceKey"><br>
+        한 페이지 결과 수 : <input type="text" name="numOfRows"><br>
+        페이지 번호 : <input type="text" name="pageNo"><br>
+        날짜 : <input type="text" name="baseDate"><br>
+        시간 : <input type="text" name="baseTime"><br>
+        응답자료 형식 : <input type="text" name="dataType"><br>
+        X좌표 : <input type="text" name="nx"><br>
+        Y좌표 : <input type="text" name="ny"><br>
+        <button type="submit">확인</button>
+    </form>
+
+</body>
+</html>
